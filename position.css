@@ -1,0 +1,12 @@
+.static{
+    position: static;
+    bottom: 0;
+}
+.fixed{
+    position: fixed;
+    top: 0;//bottom
+}
+.relatives{
+    position: relatives;
+    bottom: 0; //top
+}
