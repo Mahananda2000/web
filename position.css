@@ -4,9 +4,61 @@
 }
 .fixed{
     position: fixed;
-    top: 0;//bottom
+    top: 0; // bottom
 }
 .relatives{
     position: relatives;
-    bottom: 0; //top
+    left: 100px;
+    top: 0; 
+}
+.absolute{
+    position: absolute;
+    bottom:0;
+    left:0;
+}
+.absolutemahananda{
+    position: absolute;
+    colour: red;
+    top : 0;  
+    left: 0;
+}
+.imageparent{
+    position: relative;
+}
+.absoluteshilpa{
+    position: absolute;
+    color: brown;
+    top: 0;
+    right: 0;
+}
+.imageparent{
+    position: absolute;
+}
+.absoluteakshata{
+    position: absolute;
+    color:blue;
+    bottom: 0;
+    left: 0;
+}
+.imageparent{
+    position: absolute;
+}
+
+.absolutekashu{
+    position: absolute;
+    cplor: pink;
+    bottom: 0;
+    right: 0;
+}
+.imageparent{
+    position: absolute;
+}
+.absolutenanda{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+}
+.imageparent{
+    position: absolute;
 }

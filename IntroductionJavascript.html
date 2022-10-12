@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        
+        <script>
+        console.log("Introduction to Javascript");
+        //how to create a variable
+        //var keyword variable name ;
+        //console.log is used for print the statement
+        //console is an object reference
+        //log is a function
+        var a; //declaration of variables
+        console.log(a)
+        console.log(typeof(a)) //datatype  - undefined
+        a =10; //initialization //typeof is a datatype 
+        console.log(a)
+        console.log(typeof(a)) //datatype - number
+        a = "javascript"
+        console.log(a)
+        console.log(typeof(a)) //datatype - string
+         a= true
+         console.log(a)
+         console.log(typeof(a))  //datatype-boolean
+
+
+        //function
+        //how to declare a function
+        //function is used to perform task
+        //function is a keyword
+        //declare function below
+        //function functionname() {
+
+
+         //}
+         function display() {
+
+            console.log("we are learning function in javascript")
+
+         }
+         display()
+
+         function add( a, b) {
+            console.log(a+b)
+         }
+         add(10,20)
+        
+         function callFromclickButton()  {
+            console.log("we are calling from callFromclickButton")
+
+         }
+
+         function callFrommouseoverButton()  {
+            console.log("we are calling from callFrommouseoverclickButton")
+
+         }
+        
+        </script>
+        
+    </head>
+    <body>
+
+        <button onclick="callFromclickButton()">click me</button>
+
+        <button onmouseover="callFrommouseoverButton()">mouse over</button>
+        
+        <div id="message"></div>
+        //document object id=""
+    </body>
+</html>
