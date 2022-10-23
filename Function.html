@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Function</title>
+        <script>
+            function displayDate(){
+                console.log("calling displyaDate")
+                var date = new Date()
+                console.log(date)
+                console.log(date.getFullYear())
+                console.log(date.getDay())
+
+                document.getElementById("html").innerHTML=date
+                document.getElementById("html").style.color="blue"
+
+                window.location.href="./WhatsApp Image 2022-09-10 at 6.35.27 PM (1).jpeg"
+            }
+            //function express
+            var output=function display(){
+                console.log("calling Display")
+            }
+            //console.log(output)
+            output()
+
+            //Ananymous function
+            var ananymous=function(){
+                console.log("calling ananymous function")
+            }
+            ananymous()
+            var a;
+            a=10;
+            console.log(a)
+            var a;
+            console.log(a)
+
+            let b;
+            b="script"
+            console.log(b)
+            //let b;
+            //console.log(b)
+
+          const PI =3.14 ;
+          console.log(PI)
+
+          //var,let,const
+
+        //print statement 10 times
+          for(let i=0; i<=10;i++){
+            console.log("Learning looping in javascript")
+          }
+         /*do{
+            console.log("calling do while")
+          }while()*/
+
+          //Arrays
+
+          let arr=[1,2,3,4,5]
+          console.log(arr)
+
+          let arr1=[1,2,'java','javascript']
+          console.log(arr1)
+
+          for(let i=0; i<arr1.length;i++){
+          console.log(arr1[i])
+          }
+          
+          let arr3 =[]//add an element to at end of array
+          arr3.push(5)
+          arr3.push(6)
+          arr3.push(7)
+          console.log(arr3)
+
+          arr3.pop()//remove an element at end of array
+          console.log(arr3)
+
+          arr3.unshift(10)//add starting in to the array[1,2,3]=add[10,1,2,3]
+          console.log(arr3)
+          arr3.unshift(11)
+          console.log(arr3)
+
+          arr3.shift() //remove an element at begining of array
+          console.log(arr3)
+          arr3.shift()
+          console.log(arr3)
+
+          let movie={
+            "movieName":"kantar",
+            "price":200
+          }
+          let movie1={
+            "movieName":"cheluvinachittara","price":300
+          }
+          console.log(movie)
+          console.log(movie1)
+
+          let movies=[]
+          movies.push(movie)
+          movies.push(movie1)
+          console.log(movies)
+
+
+        </script>
+    </head>
+    <body>
+        <button onclick="displayDate()">click on me i will show ypu the date</button>
+        <div id="html"></div>
+    </body>
+    </html>
+        

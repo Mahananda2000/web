@@ -1,0 +1,61 @@
+<!doctype html>
+<html>
+    <head>
+        <script>
+            function login(){
+
+                var email = document.getElementById("email")
+                var password = document.getElementById("password")
+                console.log(email.value)
+                console.log(password.value)
+
+                var registeredUser = localStorage.getItem("xworkzuser")
+                console.log(registeredUser)
+                console.log(registeredUser.email)
+                var reegisteredObj = JSON.parse(registeredUser)
+
+                //logic for compairing the values
+                //email,password matching print the login success
+                //email,password notmatching print email or password is incorrect
+
+                //comparing values in javascript
+                if(email.value == reegisteredObj .email &&
+                password.value == reegisteredObj .password ){
+                    console.log("Login sucess")
+                    //window.location.href="https://facebook.com"
+                    window.location.href="./index.html"
+                    //navigate to html page
+                }else {
+                    console.log("Invalid  email or password")
+                }
+
+                //var a
+                //let b
+                //different between var,let
+                //different between == and ===
+                //Display date in html
+                //what is function
+                //for()
+                //arrays
+
+            }
+        </script>
+
+    </head>
+    <body>
+        <form>
+            <div>
+                <label>Enter Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+
+            <div>
+                <label>Enter password</label>
+                <input type="password" name="password" id="password">
+            </div>
+
+            <button type="button" onclick="login()">Login</button>
+            <button>Reset</button>
+        </form>
+    </body>
+</html>
