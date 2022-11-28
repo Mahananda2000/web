@@ -18,6 +18,7 @@ div + p{
 /*general sibling selector*/
 div  ~ p{
     /*color:rgb(250,10,46);*/
+
     color:#le246a;
 }
 
@@ -174,6 +175,8 @@ li{
     display: inline-block;
     margin: 0px;
     padding: 0px;
+
+    
 }
 /* vertical displauy using div
 ul{

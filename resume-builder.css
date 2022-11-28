@@ -1,1 +1,9 @@
-hjj
+/*mobile view*/
+body{
+    background-color: blue;
+}
+@media Screen and (min-width:40px){
+    body{
+        background-color: aqua;
+    }
+}
